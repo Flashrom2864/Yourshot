@@ -14,7 +14,7 @@ import { updateCar, updateOrder } from '../../graphql/mutations';
 
 const origin = {latitude: 28.450927, longitude: -16.260845};
 const destination = {latitude: 37.771707, longitude: -122.4053769};
-const GOOGLE_MAPS_APIKEY = 'AIzaSyDFhFUaYpyAjNE4Eq-sWCGWjrr6kyGnhbQ';
+const GOOGLE_MAPS_APIKEY = 'AIzaSyCV8YAg4_p5vRiu2F0X-m2DGFi8PFBH17k';
 
 const HomeScreen = () => {
   const [car, setCar] = useState(null);

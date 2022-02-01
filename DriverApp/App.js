@@ -12,6 +12,7 @@ import {
   StatusBar,
 } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
+
 import Amplify, {
   Auth,
   API,
