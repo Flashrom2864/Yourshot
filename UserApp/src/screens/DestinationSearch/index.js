@@ -68,6 +68,11 @@ const DestinationSearch = (props) => {
           onPress={(data, details = null) => {
             setDestinationPlace({data, details});
           }}
+          requestUrl={{
+            url:
+              'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api',
+            useOnPlatform: 'web',
+          }}
           enablePoweredByContainer={false}
           suppressDefaultStyles
           styles={{
